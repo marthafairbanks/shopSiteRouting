@@ -1,0 +1,11 @@
+<div class = "row rowItems">
+	<div class = "col-xs-12 items">
+	<h3>See all our Critters</h3>
+		<div ng-repeat="items in controller.data">
+				<!-- <img class="featuredItem" ng-src="{{featured.image}}"> -->
+				<p class="itemDetails">{{items.name}}</p>
+				<p class="itemDetails">{{items.price | currency}}</p>
+			
+		</div>
+	</div>
+</div>

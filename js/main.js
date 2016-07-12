@@ -7,38 +7,76 @@
 	  	$urlRouterProvider.otherwise("/");
 
 	  	$stateProvider
-	     .state('header', {
-      	url: '/',
-      	views: {
-      		'main': {
-		        templateUrl: '../views/header.html',
-		      },
-		      'nav': {
-		        templateUrl: '../views/partials/nav.html',
-		      },
-		  },
-	    })
-	    .state('home', {
-      	url: '/',
-      	views: {
-      		'main': {
-		        templateUrl: '../views/home.html',
-		        controller: 'MainController',
-		        controllerAs: 'main'
-		      },
-		  },
-	    })
-	    .state('contact', {
-      	url: '/contact',
-      	views: {
-      		'main': {
-		        templateUrl: '../views/contact.html',
-		      },
-		      'nav': {
-		        templateUrl: '../views/contact-nav.html',
-		      },
-		  },
-	    });
+        .state('home', {
+          url: '/',
+          views: {
+              'main': {
+                templateUrl: '../views/home.html',
+                controller: 'HomeController',
+                controllerAs: 'controller'
+              },
+            'header': {
+                templateUrl: '../views/partials/header.html',
+            },
+            'footer': {
+                templateUrl: '../views/partials/footer.html',
+            },
+          },
+        });
+
+      $stateProvider
+        .state('categories', {
+          url: '/categories',
+          views: {
+              'main': {
+                templateUrl: '../views/categories.html',
+                controller: 'CategoriesController',
+                controllerAs: 'controller'
+              },
+            'header': {
+                templateUrl: '../views/partials/header.html',
+            },
+            'footer': {
+                templateUrl: '../views/partials/footer.html',
+            },
+          },
+        });
+
+      $stateProvider
+        .state('items', {
+          url: '/items',
+          views: {
+              'main': {
+                templateUrl: '../views/items.html',
+                controller: 'ItemsController',
+                controllerAs: 'controller'
+              },
+            'header': {
+                templateUrl: '../views/partials/header.html',
+            },
+            'footer': {
+                templateUrl: '../views/partials/footer.html',
+            },
+          },
+        });
+
+      $stateProvider
+        .state('details', {
+          url: '/details',
+          views: {
+              'main': {
+                templateUrl: '../views/details.html',
+                controller: 'DetailsController',
+                controllerAs: 'controller'
+              },
+            'header': {
+                templateUrl: '../views/partials/header.html',
+            },
+            'footer': {
+                templateUrl: '../views/partials/footer.html',
+            },
+          },
+        });  
 	});
 })();
 

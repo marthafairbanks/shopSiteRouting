@@ -6,27 +6,31 @@
 
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Mukta+Vaani:500|Sigmar+One" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 </head>
 
-<body ng-controller='MainController as main'>
+<body>
        
+    <div class = "container-fluid">   
         <header ui-view = "header">
         </header>
 
-        <!-- <div ui-view="nav">
-        </div> -->
-
-        <main ui-view="main">
+        <main ui-view= "main">
         </main>
 
-        <footer>
+        <footer ui-view = "footer">
         </footer>
+    </div>    
 
 	<script src="js/main.js"></script>
 	<script src="js/factories/mainFactory.js"></script>
-	<script src="js/controllers/mainController.js"></script>
+	<script src="js/controllers/homeController.js"></script>
+    <script src="js/controllers/categoriesController.js"></script>
+    <script src="js/controllers/detailsController.js"></script>
+    <script src="js/controllers/itemsController.js"></script>
 </body>
 </html>
