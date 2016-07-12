@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-    angular.module('shopSiteRouting').controller('HomeController', 
+    angular.module('shopSiteRouting').controller('CategoriesItemController', 
     function (mainFactory, $stateParams) {
 
     	var vm = this;

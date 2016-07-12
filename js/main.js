@@ -44,7 +44,7 @@
 
         $stateProvider
         .state('categoriesItem', {
-          url: '/categories:catid',
+          url: '/categories/:catid',
           views: {
               'main': {
                 templateUrl: '../views/items.html',
@@ -80,7 +80,7 @@
 
       $stateProvider
         .state('details', {
-          url: '/details:item',
+          url: '/details/:item',
           views: {
               'main': {
                 templateUrl: '../views/details.html',

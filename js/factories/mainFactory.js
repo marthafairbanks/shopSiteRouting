@@ -2,17 +2,6 @@
 	'use strict';
 	angular.module('shopSiteRouting').factory('mainFactory', function() {
 
-		function getBlogs() {
-
-		 	var call = $http({
-		        method: 'GET',
-
-		        url: `https://tiyagencyweek.herokuapp.com/blogs`
-		    });
-
-		        return call;
-
-		 	}
 		
 		function getCritters() {
 			var detail1 = {
@@ -74,7 +63,7 @@
 		}
 
 	return {
-		getCritters:getCritters
+		getCritters:getCritters,
 	};
 		 	
 
