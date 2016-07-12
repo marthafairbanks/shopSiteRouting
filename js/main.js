@@ -4,7 +4,7 @@
         .module('shopSiteRouting', ['ui.router'])
         .config(function($stateProvider, $urlRouterProvider) {
 
-	  	$urlRouterProvider.otherwise("/");
+	  	// $urlRouterProvider.otherwise("/");
 
 	  	$stateProvider
         .state('home', {
@@ -42,6 +42,24 @@
           },
         });
 
+        $stateProvider
+        .state('categoriesItem', {
+          url: '/categories:catid',
+          views: {
+              'main': {
+                templateUrl: '../views/items.html',
+                controller: 'CategoriesItemController',
+                controllerAs: 'controller'
+              },
+            'header': {
+                templateUrl: '../views/partials/header.html',
+            },
+            'footer': {
+                templateUrl: '../views/partials/footer.html',
+            },
+          },
+        });
+
       $stateProvider
         .state('items', {
           url: '/items',
@@ -62,7 +80,7 @@
 
       $stateProvider
         .state('details', {
-          url: '/details',
+          url: '/details:item',
           views: {
               'main': {
                 templateUrl: '../views/details.html',

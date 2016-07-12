@@ -1,12 +1,25 @@
 (function () {
 	'use strict';
 	angular.module('shopSiteRouting').factory('mainFactory', function() {
+
+		function getBlogs() {
+
+		 	var call = $http({
+		        method: 'GET',
+
+		        url: `https://tiyagencyweek.herokuapp.com/blogs`
+		    });
+
+		        return call;
+
+		 	}
+		
 		function getCritters() {
 			var detail1 = {
 				id: 0,
     			name: "Spunky",
     			price: 40,
-    			category:"Skunk",
+    			category: 1,
     			imageUrl:"",  
     			description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
     		};
@@ -15,7 +28,7 @@
 	    		id: 1,
 	    		name: "Jupiter",
 	    		price: 25,
-	    		category:"Skunk",
+	    		category: 2,
 	    		imageUrl:"",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
@@ -24,7 +37,7 @@
 	    		id: 2,
 	    		name: "Piper",
 	    		price: 12,
-	    		category:"Skunk",
+	    		category: 3,
 	    		imageUrl:"",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
@@ -33,7 +46,7 @@
 	    		id: 3,
 	    		name: "Greg",
 	    		price: 50,
-	    		category:"Skunk",
+	    		category: 3,
 	    		imageUrl:"",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
@@ -42,7 +55,7 @@
 	    		id: 4,
 	    		name: "Thumper",
 	    		price: 23,
-	    		category:"Skunk",
+	    		category: 4,
 	    		imageUrl:"",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
@@ -51,12 +64,13 @@
 	    		id: 5,
 	    		name: "Rocko",
 	    		price: 42,
-	    		category:"Skunk",
+	    		category: 4,
 	    		imageUrl:"",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
 
-	    	vm.data = [detail1, detail2, detail3, detail4, detail5, detail6];
+	    	var data = [detail1, detail2, detail3, detail4, detail5, detail6];
+	    	return data;
 		}
 
 	return {
