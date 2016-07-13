@@ -71,11 +71,16 @@ footer {
 		background-color: $redOrange;
 		border-top: 4px solid $gray;
 		.footerLeft {
+			padding-right: 0px;
 			.weather {
 				color: $gray;
 				margin-top: 10px;
 				font-weight: 700;
 				font-size: 15px;
+				img {
+					padding-right: 5px;
+					float: left;
+				}
 			} 
 			.nav {
 				margin-top: 35px;

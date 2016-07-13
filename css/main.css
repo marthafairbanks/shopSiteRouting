@@ -53,22 +53,27 @@ footer {
   footer .rowFooter {
     background-color: #eb4141;
     border-top: 4px solid #474747; }
-    footer .rowFooter .footerLeft .weather {
-      color: #474747;
-      margin-top: 10px;
-      font-weight: 700;
-      font-size: 15px; }
-    footer .rowFooter .footerLeft .nav {
-      margin-top: 35px;
-      font-weight: 700;
-      color: #474747; }
-      footer .rowFooter .footerLeft .nav ul {
-        padding-top: 5px;
-        padding-left: 0px; }
-        footer .rowFooter .footerLeft .nav ul li {
-          display: inline-block;
-          margin-right: 20px;
-          font-size: 15px; }
+    footer .rowFooter .footerLeft {
+      padding-right: 0px; }
+      footer .rowFooter .footerLeft .weather {
+        color: #474747;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 15px; }
+        footer .rowFooter .footerLeft .weather img {
+          padding-right: 5px;
+          float: left; }
+      footer .rowFooter .footerLeft .nav {
+        margin-top: 35px;
+        font-weight: 700;
+        color: #474747; }
+        footer .rowFooter .footerLeft .nav ul {
+          padding-top: 5px;
+          padding-left: 0px; }
+          footer .rowFooter .footerLeft .nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 15px; }
     footer .rowFooter .footerMiddle h4 {
       text-align: center;
       margin-bottom: 0px;

@@ -18,7 +18,31 @@
 	      data.then(function(response) {
 	      	scope.data = response.data;
 	      	console.log(response);
+	      	
+
+	      	var weatherCode = scope.data.weather[0].id;
+	      	if (weatherCode >=200 && weatherCode<=299) {
+	      		var weatherImage = "thunderstorms.png";
+	      	}
+	      	else if (weatherCode >=300 && weatherCode<=499) {
+	      		var weatherImage = "rain.png";
+	      	}
+	      	else if (weatherCode >=600 && weatherCode<=699) {
+	      		var weatherImage = "snow.png";
+	      	}
+	      	else if (weatherCode == 800) {
+	      		var weatherImage = "clearskys.png";
+	      	}
+	      	else { 
+	      		var weatherImage = "cloudy.png";
+	      	}
+	      	
+			console.log(weatherImage);
+			scope.image = weatherImage;	 
+
 	      });
+
+
 
 	    }
 	  };
