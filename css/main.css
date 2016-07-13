@@ -1,7 +1,8 @@
 header {
   color: #fefdfb; }
   header .rowHeader {
-    background-color: #eb4141; }
+    background-color: #eb4141;
+    border-bottom: 4px solid #474747; }
     header .rowHeader .headerLeft {
       padding-right: 0px;
       font-family: "Sigmar One", cursive;
@@ -50,7 +51,8 @@ header {
 footer {
   color: #fefdfb; }
   footer .rowFooter {
-    background-color: #eb4141; }
+    background-color: #eb4141;
+    border-top: 4px solid #474747; }
     footer .rowFooter .footerLeft .weather {
       color: #474747;
       margin-top: 10px;
@@ -144,22 +146,22 @@ footer {
         .rowItems .items a p span {
           padding-left: 10px; }
 
-.rowFeatured .featured h3 {
-  font-family: "Cookie", cursive;
-  font-size: 50px;
-  text-align: center; }
-
-.rowFeatured .featured img {
-  width: 50%;
-  margin: 0px auto;
-  display: block; }
-
-.rowFeatured .featured p {
-  font-family: "Sigmar One", cursive;
-  text-align: center;
-  font-size: 40px;
-  margin-top: -70px;
-  color: #fefdfb; }
+.rowFeatured {
+  padding-bottom: 50px; }
+  .rowFeatured .featured h3 {
+    font-family: "Cookie", cursive;
+    font-size: 50px;
+    text-align: center; }
+  .rowFeatured .featured img {
+    width: 50%;
+    margin: 0px auto;
+    display: block; }
+  .rowFeatured .featured p {
+    font-family: "Sigmar One", cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -70px;
+    color: #fefdfb; }
 
 body {
   font-family: "Mukta Vaani", sans-serif;

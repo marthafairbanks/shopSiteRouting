@@ -2,6 +2,7 @@ header {
 	color: $offWhite;
 	.rowHeader {
 		background-color: $redOrange;
+		border-bottom: 4px solid $gray;
 		.headerLeft {
 			padding-right: 0px;
 			font-family: $blockFont;
@@ -68,6 +69,7 @@ footer {
 	color: $offWhite;
 	.rowFooter {
 		background-color: $redOrange;
+		border-top: 4px solid $gray;
 		.footerLeft {
 			.weather {
 				color: $gray;

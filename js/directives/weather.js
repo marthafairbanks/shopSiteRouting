@@ -12,6 +12,7 @@
 
 	      var city = attrs.city;
 
+	      //api's give you back a promise this is how you handle it
 	      var data = weatherFactory.getWeather(city);
 
 	      data.then(function(response) {
