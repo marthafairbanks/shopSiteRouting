@@ -1,13 +1,7 @@
 <div class = "row rowFeatured">
 	<div class = "col-xs-12 featured">
 	<h3>Your New Best Friend</h3>
-		<div>
-			<!-- <img class="featuredCritterImage" ng-src="{{controller.data.image}}"> -->
-			<p class="featuredCritter"><a href="#/details/{{controller.data.id}}">{{controller.data.name}}</a></p>
-			<p class="featuredCritter">{{controller.data.price | currency}}</p>
-		</div>
+		<a href="#/details/{{controller.data.id}}"><img class="featuredCritterImage" ng-src="{{controller.data.imageUrl}}"></a>
+		<p class="featuredCritter">{{controller.data.name}}</p>
 	</div>	
-
-		<weather city="Boston"></weather>
-
 </div>

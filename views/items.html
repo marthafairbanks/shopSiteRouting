@@ -1,11 +1,7 @@
 <div class = "row rowItems">
-	<div class = "col-xs-12 items">
-	<h3>See all our Critters</h3>
-		<div ng-repeat="items in controller.data">
-				<!-- <img class="featuredItem" ng-src="{{featured.image}}"> -->
-				<p class="itemDetails"><a class="detailLink" href='#/details/{{items.id}}'>{{items.name}}</a></p>
-				<p class="itemDetails">{{items.price | currency}}</p>
-			
-		</div>
+	<h2>See all our Critters</h2>
+	<div class = "col-xs-4 items" ng-repeat="items in controller.data">
+		<a class="detailLink" href='#/details/{{items.id}}'><img class="itemImage" ng-src="{{items.imageUrl}}">
+		<p class="itemsDetails">{{items.name}}<span class = "itemsPrice"> {{items.price | currency}}</span></p></a>
 	</div>
 </div>

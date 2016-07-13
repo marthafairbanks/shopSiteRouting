@@ -1,11 +1,8 @@
 <div class = "row rowDetails">
 	<div class = "col-xs-12 details">
-	<h3>{{controller.item.name}}</h3>
-		<div>
-			<img class="detailImage" ng-src="{{controller.item.imageURL}}">
-			<p class="detailDescription">{{controller.item.name}}</p>
-			<p class="detailDescription">{{controller.item.price | currency}}</p>
-			<p>{{controller.item.description}}</p>
-		</div>
+		<h2>{{controller.item.name}}</h2>
+		<img class="detailImage" ng-src="{{controller.item.imageUrl}}">
+		<p class="detailPrice">{{controller.item.price | currency}}</p>
+		<p class = "detailDescription">{{controller.item.description}}</p>
 	</div>
 </div>

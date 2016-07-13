@@ -1,9 +1,19 @@
-// $gray = "#474747";
-
+$gray: #474747;
+$offWhite: #fefdfb;
+$redOrange: #eb4141;
+$cursiveFont: 'Cookie', cursive;
+$blockFont: 'Sigmar One', cursive;
+$mainFont: 'Mukta Vaani', sans-serif;
 
 @import 'headerFooter';
+@import 'categories';
+@import 'details';
+@import 'items';
+@import 'featured';
 
 body {
-	font-family: 'Mukta Vaani', sans-serif;
-	color: #474747;
+	font-family: $mainFont;
+	color: $gray;
+	background-color: $offWhite;
 }
+

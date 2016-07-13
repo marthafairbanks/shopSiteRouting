@@ -1,8 +1,6 @@
 <div class = "row rowCategories">
-	<div class = "col-xs-12 categories">
-	<h3>Different Types of Critters</h3>
-		<div ng-repeat="categories in controller.data">
-				<p><a class="itemLink" href="#/categories/{{categories.id}}">{{categories.name}}</a></p>
-		</div>
+	<h2>Different Types of Critters</h2>
+	<div class = "col-xs-6 categories" ng-repeat="categories in controller.data">
+		<a class="itemLink" href="#/categories/{{categories.id}}"><h3>{{categories.name}}</h3><img src = {{categories.imageUrl}}></a>
 	</div>
 </div>

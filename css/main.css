@@ -1,10 +1,10 @@
 header {
-  color: white; }
+  color: #fefdfb; }
   header .rowHeader {
     background-color: #eb4141; }
     header .rowHeader .headerLeft {
       padding-right: 0px;
-      font-family: 'Sigmar One', cursive;
+      font-family: "Sigmar One", cursive;
       padding-top: 15px; }
       header .rowHeader .headerLeft .bgHeader {
         color: #474747; }
@@ -24,6 +24,7 @@ header {
       header .rowHeader .headerRight .searchBox {
         margin-bottom: 0px; }
         header .rowHeader .headerRight .searchBox input {
+          background-color: #fefdfb;
           width: 300px;
           float: right; }
         header .rowHeader .headerRight .searchBox span {
@@ -39,7 +40,7 @@ header {
           margin-left: 30px;
           font-size: 15px; }
   header h3 {
-    font-family: 'Cookie', cursive;
+    font-family: "Cookie", cursive;
     font-size: 40px;
     text-align: right;
     margin: 0px;
@@ -47,25 +48,29 @@ header {
     margin-top: -50px; }
 
 footer {
-  color: white; }
+  color: #fefdfb; }
   footer .rowFooter {
     background-color: #eb4141; }
-    footer .rowFooter .footerLeft {
-      margin-top: 75px; }
-      footer .rowFooter .footerLeft .nav {
-        font-weight: 700;
-        color: #474747; }
-        footer .rowFooter .footerLeft .nav ul {
-          padding-top: 5px;
-          padding-left: 0px; }
-          footer .rowFooter .footerLeft .nav ul li {
-            display: inline-block;
-            margin-right: 20px;
-            font-size: 15px; }
+    footer .rowFooter .footerLeft .weather {
+      color: #474747;
+      margin-top: 10px;
+      font-weight: 700;
+      font-size: 15px; }
+    footer .rowFooter .footerLeft .nav {
+      margin-top: 35px;
+      font-weight: 700;
+      color: #474747; }
+      footer .rowFooter .footerLeft .nav ul {
+        padding-top: 5px;
+        padding-left: 0px; }
+        footer .rowFooter .footerLeft .nav ul li {
+          display: inline-block;
+          margin-right: 20px;
+          font-size: 15px; }
     footer .rowFooter .footerMiddle h4 {
       text-align: center;
       margin-bottom: 0px;
-      font-family: 'Sigmar One', cursive; }
+      font-family: "Sigmar One", cursive; }
     footer .rowFooter .footerMiddle img {
       width: 15%;
       padding-top: 5px;
@@ -76,8 +81,87 @@ footer {
       font-weight: 700;
       color: #474747;
       text-align: right;
-      margin-top: 75px; }
+      margin-top: 90px; }
+
+.rowCategories {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .rowCategories h2 {
+    text-align: center;
+    font-family: "Cookie", cursive;
+    font-size: 50px; }
+  .rowCategories .categories {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .rowCategories .categories a {
+      font-family: "Sigmar One", cursive;
+      text-decoration: underline;
+      color: #474747; }
+      .rowCategories .categories a img {
+        margin: 0px auto;
+        display: block;
+        width: 65%; }
+
+.rowDetails {
+  padding-bottom: 50px; }
+  .rowDetails .details h2 {
+    font-family: "Cookie", cursive;
+    font-size: 50px;
+    text-align: center; }
+  .rowDetails .details img {
+    width: 40%;
+    margin: 0px auto;
+    display: block;
+    padding: 10px; }
+  .rowDetails .details .detailPrice {
+    text-align: center;
+    font-size: 20px; }
+  .rowDetails .details .detailDescription {
+    width: 75%;
+    margin: 0px auto;
+    display: block;
+    font-size: 15px; }
+
+.rowItems {
+  padding-bottom: 50px; }
+  .rowItems h2 {
+    font-family: "Cookie", cursive;
+    font-size: 50px;
+    text-align: center; }
+  .rowItems .items {
+    padding: 10px; }
+    .rowItems .items a {
+      color: #474747;
+      font-family: "Sigmar One", cursive;
+      font-size: 15px; }
+      .rowItems .items a img {
+        width: 70%;
+        margin: 0px auto;
+        display: block; }
+      .rowItems .items a p {
+        text-align: center; }
+        .rowItems .items a p span {
+          padding-left: 10px; }
+
+.rowFeatured .featured h3 {
+  font-family: "Cookie", cursive;
+  font-size: 50px;
+  text-align: center; }
+
+.rowFeatured .featured img {
+  width: 50%;
+  margin: 0px auto;
+  display: block; }
+
+.rowFeatured .featured p {
+  font-family: "Sigmar One", cursive;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -70px;
+  color: #fefdfb; }
 
 body {
-  font-family: 'Mukta Vaani', sans-serif;
-  color: #474747; }
+  font-family: "Mukta Vaani", sans-serif;
+  color: #474747;
+  background-color: #fefdfb; }

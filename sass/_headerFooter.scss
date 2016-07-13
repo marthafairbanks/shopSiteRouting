@@ -1,13 +1,13 @@
 header {
-	color: white;
+	color: $offWhite;
 	.rowHeader {
-		background-color: #eb4141;
+		background-color: $redOrange;
 		.headerLeft {
 			padding-right: 0px;
-			font-family: 'Sigmar One', cursive;
+			font-family: $blockFont;
 			padding-top: 15px;
 			.bgHeader {
-				color: #474747;
+				color: $gray;
 			}
 			.fgHeader {
 				margin-top: -85px;
@@ -29,17 +29,18 @@ header {
 			.searchBox {
 				margin-bottom: 0px;
 				input {
+					background-color: $offWhite;
 					width: 300px;
 					float: right;
 				}
 
 				span {
-					color : #474747;
+					color : $gray;
 				}
 			}	
 			.nav {
 				ul {
-					color: #474747;
+					color: $gray;
 					padding-top: 0px;
 					font-weight: 700;
 					float: right;
@@ -54,7 +55,7 @@ header {
 		}	
 	}
 	h3 {
-		font-family: 'Cookie', cursive;
+		font-family: $cursiveFont;
 		font-size: 40px;
 		text-align: right;
 		margin: 0px;
@@ -64,14 +65,20 @@ header {
 }
 
 footer {
-	color: white;
+	color: $offWhite;
 	.rowFooter {
-		background-color: #eb4141;
+		background-color: $redOrange;
 		.footerLeft {
-			margin-top: 75px;			
-			.nav {
+			.weather {
+				color: $gray;
+				margin-top: 10px;
 				font-weight: 700;
-				color: #474747;
+				font-size: 15px;
+			} 
+			.nav {
+				margin-top: 35px;
+				font-weight: 700;
+				color: $gray;
 				ul {
 					padding-top: 5px;
 					padding-left: 0px;
@@ -88,7 +95,7 @@ footer {
 			h4 {
 				text-align: center;
 				margin-bottom: 0px;
-				font-family: 'Sigmar One', cursive;
+				font-family: $blockFont;
 			}
 			img {
 				width: 15%;
@@ -100,9 +107,9 @@ footer {
 		}
 		.footerRight {
 			font-weight: 700;
-			color: #474747;
+			color: $gray;
 			text-align: right;
-			margin-top: 75px;
+			margin-top: 90px;
 		}
 	}	
 }

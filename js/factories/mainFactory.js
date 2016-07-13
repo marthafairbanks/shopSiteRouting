@@ -9,7 +9,7 @@
     			name: "Spunky",
     			price: 40,
     			category: 1,
-    			imageUrl:"",  
+    			imageUrl:"../../../images/spunky.jpg",  
     			description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
     		};
 
@@ -18,7 +18,7 @@
 	    		name: "Jupiter",
 	    		price: 25,
 	    		category: 2,
-	    		imageUrl:"",  
+	    		imageUrl:"../../../images/jupiter.jpg",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
 
@@ -27,7 +27,7 @@
 	    		name: "Piper",
 	    		price: 12,
 	    		category: 3,
-	    		imageUrl:"",  
+	    		imageUrl:"../../../images/piper.jpg",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
 
@@ -36,7 +36,7 @@
 	    		name: "Greg",
 	    		price: 50,
 	    		category: 3,
-	    		imageUrl:"",  
+	    		imageUrl:"../../../images/greg.jpg",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
 
@@ -45,7 +45,7 @@
 	    		name: "Thumper",
 	    		price: 23,
 	    		category: 4,
-	    		imageUrl:"",  
+	    		imageUrl:"../../../images/squirrel.jpg",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
 
@@ -54,7 +54,7 @@
 	    		name: "Rocko",
 	    		price: 42,
 	    		category: 4,
-	    		imageUrl:"",  
+	    		imageUrl:"../../../images/rocko.jpg",  
 	    		description: "Squirty cheese parmesan mozzarella. Cheese strings halloumi say cheese cauliflower cheese mozzarella caerphilly smelly cheese caerphilly. Halloumi goat squirty cheese babybel everyone loves who moved my cheese queso fromage. Hard cheese.",
 	    	};
 

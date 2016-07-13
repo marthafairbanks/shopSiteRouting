@@ -1,0 +1,26 @@
+.rowDetails {
+	padding-bottom: 50px;
+	.details {
+		h2 {
+			font-family: $cursiveFont;
+			font-size: 50px;
+			text-align: center;
+		}
+		img {
+			width: 40%;
+			margin: 0px auto;
+			display: block;
+			padding: 10px;
+		}
+		.detailPrice {
+			text-align: center;
+			font-size: 20px;
+		}
+		.detailDescription {
+			width: 75%;
+			margin: 0px auto;
+			display: block;
+			font-size: 15px;
+		}
+	}
+}

@@ -7,25 +7,25 @@
     	
     	var category1 = {
 	       	name: "Otters",
-	       	imageUrl: "",
+	       	imageUrl: "../images/otter.jpg",
 	       	id: 1,
 	       };
 
 	       var category2 = {
 	       	name:"Skunks",
-	       	imageUrl: "",
+	       	imageUrl: "../images/skunk.jpg",
 	       	id: 2,
 	       };
 
 	       var category3 = {
 	       	name:"Raccoons",
-	       	imageUrl: "",
+	       	imageUrl: "../images/raccoon.jpg",
 	       	id: 3,
 	       };
 
 	       var category4 = {
 	       	name: "Squirrels",
-	       	imageUrl: "",
+	       	imageUrl: "../images/squirrel.jpg",
 	       	id: 4,
 	       };
 
