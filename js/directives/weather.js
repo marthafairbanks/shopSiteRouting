@@ -24,7 +24,7 @@
 	      	if (weatherCode >=200 && weatherCode<=299) {
 	      		var weatherImage = "thunderstorms.png";
 	      	}
-	      	else if (weatherCode >=300 && weatherCode<=499) {
+	      	else if (weatherCode >=300 && weatherCode<=599) {
 	      		var weatherImage = "rain.png";
 	      	}
 	      	else if (weatherCode >=600 && weatherCode<=699) {
