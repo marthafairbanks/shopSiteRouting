@@ -1,5 +1,5 @@
 {
-  "name": "angularstartr",
+  "name": "angularstarter",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -19,12 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamtjones/InventoryAppAdmin.git"
+    "url": "git+https://github.com/marthafairbanks/shopSiteRouting.git"
   },
-  "author": "",
+  "author": "Martha Fairbanks",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adamtjones/InventoryAppAdmin/issues"
-  },
-  "homepage": "https://github.com/adamtjones/InventoryAppAdmin#readme"
+  "homepage": "https://github.com/marthafairbanks/shopSiteRouting#readme"
 }
